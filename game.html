@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       
+    <link href="styles.css", rel="stylesheet">
+    
+     <title>Type or die</title> 
+      
+</head>
+      
+<body>
+        
+    <div class="container">
+        
+            
+        <section>
+            <header>
+                <h1 class="gametitle">Type or Die</h1>
+            </header>
+            <div class="displaydetails">
+            <div class="level">
+                <p>Level <span id="level"></span></p>
+            </div>
+            <div class="score">
+                <p>Your score is: <span id="score">0</span></p>
+            </div>
+            </div>
+        </section>
+        
+        <section class="wordsection">
+           <div class="worddisplay">
+              <span id="words">Ready?</span>
+           </div>
+        </section>
+        
+        
+        <section class="inputsection">
+            <label for="">
+             <span class="type">Type Words here</span>
+             <input id="wordhere" type="text" name="Type Here">
+            </label>
+               <div class="buttons">
+                 <button id="Start">Click to start</button>
+                 <button id="Again">Restart</button>
+                 <button id="End">End</button>
+               </div>
+            </section>
+    </div>
+    
+     
+      <script>
+             document.getElementById("Start").addEventListener("click", Sgame);
+               function Sgame() {
+                  alert ("The Game is started");
+                }
+
+             document.getElementById("Again").addEventListener("click", Agame);
+              function Agame() {
+                   alert ("Restart the Game");
+
+               }
+
+            document.getElementById("End").addEventListener("click", Egame);
+               function Egame() {
+                  alert ("Game Ended!");
+
+               }
+    </script>
+ </body>
+</html>

@@ -1,0 +1,46 @@
+.container {
+        width: 85%;
+        height: auto;
+        margin: auto;
+        margin-top: 75px;
+        background-color: rgba(100, 100, 100, 0.2);
+        border-radius: 25px;
+        padding: 30px;
+        text-align: center;
+        
+        font-family: Gotham, Arial, sans-serif
+      }
+
+      /* Game Tite */
+      h1 {
+        font-size: 3em;
+      }
+
+      
+      section.wordsection {
+        height: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: rgba(100, 100, 100, 0.2)
+      }
+     
+     /* Word Conatiner */
+      .worddisplay {
+        color: red;
+        height: auto;
+        font-size: 7.5em;
+        
+        position: relative;
+        top: 15%;
+      }
+
+      /* Input Section */
+      .inputsection {
+        margin-bottom: 20px;
+      }
+      #Start, #Again, #End {
+        display: inline-block;
+        margin: auto;
+        margin-top: 35px
+      }
+
